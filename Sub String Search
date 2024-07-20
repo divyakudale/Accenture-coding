@@ -1,0 +1,13 @@
+public class Main {
+    public static int subStringsearch(String str1, String str2)
+    {
+        int index = str1.indexOf(str2);
+        return index !=-1 ?index :-1;
+    }
+
+    public static void main(String[] args) {
+        String str1 = "hello world";
+        String str2 = "world";
+        System.out.println(subStringsearch(str1,str2));
+    }
+}
